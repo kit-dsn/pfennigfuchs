@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.worker.json",
+  "exclude": [],
+  "compilerOptions": {
+    "composite": true,
+    "lib": ["ES2021","WebWorker"],
+    "types": ["node", "jsdom"]
+  }
+}

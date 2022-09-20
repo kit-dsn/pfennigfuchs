@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap"> -->
+  <link rel="icon" href="/favicon.png" />
+  <link rel="manifest" href="/app.webmanifest" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no" />
+  <link rel="apple-touch-icon" href="/icons/favicon_192.png" />
+  <meta name="theme-color" content="#c46500" />
+  <meta name="description" content="Application to manage shared expenses." />
+  <title>Pfenningfuchs</title>
+
+  <style>
+    /* need to fix this a better way, so far bootstrap adds padding to the right */
+    body {
+      padding-right: 0 !important;
+      overflow-y: scroll !important;
+      overflow-x: hidden !important;
+      user-select: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>

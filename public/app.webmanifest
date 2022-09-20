@@ -1,0 +1,39 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "lang": "en",
+    "dir": "ltr",
+    "name": "Pfennigfuchs",
+    "short_name": "Pfennigfuchs",
+    "id": "pfennigfuchs",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#c46500",
+    "description": "Managing shared expenses via Matrix",
+    "scope": "/",
+    "theme_color": "#c46500",
+    "icons": [
+        {
+            "src": "/icons/favicon_144.png",
+            "type": "image/png",
+            "sizes": "144x144",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/favicon_192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icons/favicon_512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/favicon.png",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}

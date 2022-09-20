@@ -1,0 +1,15 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.json",
+    "files": ["./serviceworker.ts"],
+    "include": ["src/worker/**/*"],
+    "exclude": ["src/**/__tests__/*"],
+    "compilerOptions": {
+      "lib": ["ES2021","WebWorker"],
+      "types": [],
+      "composite": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["./src/*"]
+      }
+    }
+}
